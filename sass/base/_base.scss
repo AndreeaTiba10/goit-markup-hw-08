@@ -1,5 +1,8 @@
 $text-font-family: "Roboto", sans-serif;
 $heading-color: #212121;
+body, html {
+  overflow-x: hidden;
+}
 body {
   font-family: $text-font-family;
   font-style: normal;
