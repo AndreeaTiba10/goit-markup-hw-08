@@ -1,18 +1,16 @@
-@import "./base/base";
-@import "./utils/vars";
+@use "./base/base";
+@use "./components/logo";
+@use "./components/modal";
+@use "./components/backdrop";
+@use "./components/buttons";
+@use "./components/nav-bar";
+@use "./components/mobile-menu";
 
-@import "./components/logo";
-@import "./components/modal";
-@import "./components/backdrop";
-@import "./components/buttons";
-@import "./components/nav-bar";
-@import "./components/mobile-menu";
-
-@import "./sections/benefits";
-@import "./sections/customers";
-@import "./sections/footer";
-@import "./sections/header";
-@import "./sections/hero";
-@import "./sections/portfolio";
-@import "./sections/team";
-@import "./sections/work";
+@use "./sections/benefits";
+@use "./sections/customers";
+@use "./sections/footer";
+@use "./sections/header";
+@use "./sections/hero";
+@use "./sections/portfolio";
+@use "./sections/team";
+@use "./sections/work";
